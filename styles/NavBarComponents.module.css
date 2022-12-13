@@ -1,21 +1,5 @@
-.navbar{
-    background: transparent;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: static;
-    z-index: 999;
+.nav{
+    background: red !important;
+   
 }
 
-.navbar.active{
-    background-color: blue;
-}
-
-.navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    max-width: 1500px;
-}
