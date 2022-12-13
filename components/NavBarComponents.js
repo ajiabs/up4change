@@ -1,10 +1,34 @@
+import React, { useState, useEffect } from "react";
 import Image from 'next/image';
 import Logo_Main from '../images/logo-main.svg'
 function NavBarComponents() {
+const [navSize, setnavSize] = useState("10rem");
+  const [navColor, setnavColor] = useState("transparent");
+  const listenScrollEvent = () => {
+    window.scrollY > 10 ? setnavColor("#f9cc6a") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavSize("7rem") : setnavSize("10rem");
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+    return () => {
+      window.removeEventListener("scroll", listenScrollEvent);
+    };
+  }, []);
+
   return (
 
+
+    
     <div>
-      <nav class="px-3 lg:px-40 py-5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0">
+      <nav 
+      
+      style={{
+        backgroundColor: navColor,
+        height: navSize,
+        transition: "all 1s"
+      }}
+      
+      class="bg-white px-3 lg:px-40 py-5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0">
         <div class="container flex flex-wrap items-center justify-start mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <Image className='w-[124px] mr-12' src={Logo_Main} alt="Picture of the author" />
