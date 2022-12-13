@@ -10,7 +10,7 @@ function BannerComponents() {
 <div className="bg-none lg:bg-[url('../images/Banner_Pattern.svg')] bg-no-repeat bg-cover w-full lg:w-[65%]">
    
 
-                <div className="items-center justify-center flex flex-col text-center pt-36 pb-72 pl-1 lg:pb-40 lg:pl-40">
+                <div className="items-center justify-center flex flex-col text-center pt-36 pb-80 pl-1 lg:pb-40 lg:pl-40">
                     <div className='w-full'>
                         <div className='items-center justify-center flex flex-col text-center pr-0 lg:pr-60'><Image src={bs_01} alt="Picture of the author" /></div>
                         <h3 className='text-[#230d4d] font-bold text-[32px] lg:text-[42px] text-center lg:text-left mt-[15px] leading-[42px] lg:leading-[55px]'>G’day Changemaker,<br></br> ready to shake up the world?</h3>

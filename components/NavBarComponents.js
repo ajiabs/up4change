@@ -49,16 +49,16 @@ const [navSize, setnavSize] = useState("110px");
                 <a href="#" class="text-[17px] font-semibold block py-2  pr-4 text-[#230d4d] rounded md:bg-transparent dark:text-white" aria-current="page">About</a>
               </li>
                <li className='ml-3'>
-                <a href="#" class="text-[17px] font-semibold block py-2  pr-4text-[#230d4d]">How to donate</a>
+                <a href="#" class="text-[17px] font-semibold block py-2  pr-4 text-[#230d4d]">How to donate</a>
               </li>
               <li className='ml-3'>
-                <a href="#" class="text-[17px] font-semibold block py-2  pr-4text-[#230d4d]">Charities</a>
+                <a href="#" class="text-[17px] font-semibold block py-2  pr-4 text-[#230d4d]">Charities</a>
               </li>
               <li className='ml-3'>
-                <a href="#" class="text-[17px] font-semibold block py-2  pr-4text-[#230d4d]">Features</a>
+                <a href="#" class="text-[17px] font-semibold block py-2  pr-4 text-[#230d4d]">Features</a>
               </li>
               <li className='ml-3'>
-                <a href="#" class="text-[17px] font-semibold block py-2  pr-4text-[#230d4d]">Contact</a>
+                <a href="#" class="text-[17px] font-semibold block py-2  pr-4 text-[#230d4d]">Contact</a>
               </li>
               <li className='block lg:hidden'><div>
             <button type="button" class="text-white bg-[#ff9776] focus:ring-4 focus:outline-none focus:ring-blue-300 text-[17px] font-semibold px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enquire Now</button>
