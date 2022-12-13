@@ -6,7 +6,7 @@ function EnquiryFormComponents() {
                 <div className=" flex flex-col text-center">
                     <div className="relative">
                     <h2 className="text-[32px] lg:text-[48px]  font-bold text-center  text-white">Enquiry Form</h2>
-                    <div className='w-[100px] h-[3px] bg-[#ff9776] absolute top-[110px] left-[35%] lg:top-[88px] lg:left-[45%]'></div>
+                    <div className='w-[100px] h-[3px] bg-[#ff9776] absolute top-[65px] left-[35%] lg:top-[88px] lg:left-[45%]'></div>
                     </div>
                     <div  className="px-4 lg:px-48 ">
                         <form action="/send-data-here" method="post" className="mt-9">
