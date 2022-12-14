@@ -9,7 +9,7 @@ function GalleryComponents() {
                 <div className='w-[100px] h-[3px] bg-[#ff9776] absolute top-[110px] left-[35%] lg:top-[88px] lg:left-[45%]'></div>
                 </div>
                     <h2 className="text-[32px] lg:text-[48px] font-bold text-center  text-white mb-12">Find a cause you care about</h2>
-                    <div><Image className='drop-shadow-2xl' src={Gallery_Main} alt="Picture of the author" /></div>
+                    <div className='flex justify-center items-center'><Image className='drop-shadow-2xl' src={Gallery_Main} alt="Picture of the author" /></div>
                 </div>
             </div>
         </div>
