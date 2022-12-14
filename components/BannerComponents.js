@@ -5,7 +5,7 @@ import mb_01 from '../images/mb-01.png'
 function BannerComponents() {
     return (
      <div className='bg-[#f9cc69] lg:bg-[#24202d]'> 
-     <div className="container mx-auto">
+     <div className="mx-auto">
      <div className="flex relative">
 <div className="bg-none lg:bg-[url('../images/Banner_Pattern.svg')] bg-no-repeat bg-cover w-full lg:w-[65%]">
    
