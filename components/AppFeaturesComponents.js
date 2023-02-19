@@ -10,13 +10,13 @@ function AppFeaturesComponents() {
             <div className="container mx-auto px-4 lg:px-28  ">
                 <div className="items-center justify-center flex flex-col text-center">
                     <div className='relative'>
-                    <h2 className="text-[32px] lg:text-[48px]  font-bold text-center  text-[#230d4d] mb-12">App features</h2>
-                    <div className='w-[100px] h-[3px] bg-[#230d4d] absolute top-[110px] left-[35%] lg:top-[88px] lg:left-[32%]'></div>
+                    <h2 data-aos="fade-up" data-aos-duration="2000" className="text-[32px] lg:text-[48px]  font-bold text-center  text-[#230d4d] mb-12">App features</h2>
+                    <div className='w-[100px] h-[3px] bg-[#230d4d] absolute top-[55px] left-[22%] sm:top-[55px] sm:left-[22%] md:top-[110px] md:left-[35%] lg:top-[88px] lg:left-[32%]'></div>
                     </div>
 
                     <div className="flex w-full flex-wrap">
 
-                        <div className="w-full lg:w-1/3 pr-0 lg:pr-8">
+                        <div data-aos="fade-down" data-aos-duration="2000" className="w-full lg:w-1/3 pr-0 lg:pr-8">
                             <div>
                                 <div className='items-center justify-center flex flex-col text-center'><Image src={App_01} alt="Picture of the author" /></div>
                                 <h3 className='text-[#230d4d] font-bold text-[22px] text-center lg:text-right mt-[15px]'>Find charities that match your values</h3>
@@ -33,10 +33,10 @@ function AppFeaturesComponents() {
 </p>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 my-10 lg:my-0">
+                        <div data-aos="fade-up" data-aos-duration="2000" className="w-full lg:w-1/3 my-10 lg:my-0">
                             <div><Image className='drop-shadow-2xl' src={App_Main} alt="Picture of the author" /></div>
                         </div>
-                        <div className="w-full lg:w-1/3 pl-0 lg:pl-8">
+                        <div data-aos="fade-right" data-aos-duration="2000" className="w-full lg:w-1/3 pl-0 lg:pl-8">
                         <div>
                                 <div className='items-center justify-center flex flex-col text-center'><Image src={App_03} alt="Picture of the author" /></div>
                                 <h3 className='text-[#230d4d] font-bold text-[22px] text-center lg:text-left mt-[15px]'>Automate your giving</h3>

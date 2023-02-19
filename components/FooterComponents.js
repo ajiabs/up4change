@@ -4,7 +4,7 @@ function FooterComponents() {
     return (
         <div className='bg-black pt-[3rem] lg:pt-10 pb-[2rem] lg:pb-10'>
             <div className="container mx-auto px-4 lg:px-28 ">
-                <div className="flex flex-wrap ">
+                <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-wrap ">
                     <div className="w-full lg:w-1/3 items-center justify-center flex  text-center" >
                         <div><Image src={Logo_Fotter} alt="Picture of the author" /></div>
                     </div>

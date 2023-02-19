@@ -10,6 +10,7 @@ import GalleryComponents from '../components/GalleryComponents'
 import RoundUpComponents from '../components/RoundUpComponents'
 import WeComponents from '../components/WeComponents'
 import BannerComponents from '../components/BannerComponents'
+import FormTestComponents from '../components/FormTestComponents'
 
 
 
@@ -25,6 +26,12 @@ export default function Home() {
         <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
         <script src="../path/to/flowbite/dist/flowbite.js" async></script>
         <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js" async></script>
+        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+   
+
+
+
       </Head>
       <NavBarComponents></NavBarComponents>
       <BannerComponents></BannerComponents>
@@ -32,6 +39,7 @@ export default function Home() {
       <RoundUpComponents></RoundUpComponents>
       <GalleryComponents></GalleryComponents>
       <AppFeaturesComponents></AppFeaturesComponents>
+      {/* <FormTestComponents></FormTestComponents> */}
       <EnquiryFormComponents></EnquiryFormComponents>
       <SubscribeComponents></SubscribeComponents>
       <FooterComponents></FooterComponents>

@@ -14,13 +14,13 @@ function RoundUpComponents() {
             
             <div className="container mx-auto px-4 lg:px-40 pt-3 lg:pt-12  ">
                 <div className="items-center justify-center flex flex-col text-center">
-                    <div className='relative'><h2 className="text-[32px] lg:text-[48px] px-10 lg:px-0 font-bold text-center  text-[#230d4d] pb-10 lg:pb-40">Round-up in 4 simple steps.</h2>
+                    <div data-aos="fade-up"  data-aos-duration="2000" className='relative'><h2 className="text-[32px] lg:text-[48px] px-10 lg:px-0 font-bold text-center  text-[#230d4d] pb-10 lg:pb-40">Round-up in 4 simple steps.</h2>
                     <div className='w-[100px] h-[3px] bg-[#230d4d] absolute top-[110px] left-[35%] lg:top-[88px] lg:left-[45%]'></div>
                     </div>
                     
                        <div className="flex flex-col-reverse lg:flex-row w-full pb-0 lg:pb-36 flex-wrap ">
 
-                        <div className="w-full lg:w-1/2 pr-8">
+                        <div data-aos="fade-up"  data-aos-duration="2000" className="w-full lg:w-1/2 pr-8">
                             <div className='relative'>
                                 <h1 className='text-[200px] absolute font-semibold  text-white opacity-25 top-[-138px]'>1</h1>
                                 <h3 className='text-[#230d4d] font-semibold text-[26px] lg:text-[36px] leading-[32px] lg:leading-[50px] text-left mt-[15px]'>Choose a cause you care <br></br>about.</h3>
@@ -31,7 +31,7 @@ function RoundUpComponents() {
                         </div>
                         <div className="w-full lg:w-1/2 pr-8">
                             <div>
-                                <div className='items-center justify-center flex flex-col text-center h-60'><Image src={R_01} alt="Picture of the author" /></div>
+                                <div data-aos="fade-down" data-aos-duration="2000" className='items-center justify-center flex flex-col text-center h-60'><Image src={R_01} alt="Picture of the author" /></div>
 
                             </div>
 
@@ -39,7 +39,7 @@ function RoundUpComponents() {
                     </div>
 
                     <div className="flex w-full pb-0 lg:pb-36 flex-wrap">
-                        <div className="w-full lg:w-1/2 pr-8">
+                        <div data-aos="fade-up" data-aos-duration="2000" className="w-full lg:w-1/2 pr-8">
                             <div>
                                 <div className='items-center justify-center flex flex-col text-center h-[200px] lg:h-60'><Image src={R_02} alt="Picture of the author" /></div>
 
@@ -47,7 +47,7 @@ function RoundUpComponents() {
 
                         </div>
 
-                        <div className="w-full lg:w-1/2 pr-8">
+                        <div data-aos="fade-down" data-aos-duration="2000" className="w-full lg:w-1/2 pr-8">
                             <div className='relative'>
                             <h1 className='text-[200px] absolute font-semibold  text-white opacity-25 right-[0px] top-[-138px]'>2</h1>
                                 <h3 className='text-[#230d4d] font-semibold text-[26px] lg:text-[36px] leading-[32px] lg:leading-[50px] text-left lg:text-right mt-[15px]'>Tell us what amount you want <br></br>to round up to.</h3>
@@ -61,7 +61,7 @@ function RoundUpComponents() {
 
                     <div className="flex w-full pb-0 lg:pb-36 flex-wrap flex-col-reverse lg:flex-row">
 
-                        <div className="w-full lg:w-1/2 pr-8">
+                        <div data-aos="fade-down" data-aos-duration="2000" className="w-full lg:w-1/2 pr-8">
                         <div className='relative'>
                             <h1 className='text-[200px] absolute font-semibold  text-white opacity-25 top-[-138px]'>3</h1>
                                 <h3 className='text-[#230d4d] font-semibold text-[26px] lg:text-[36px] leading-[32px] lg:leading-[50px] text-left mt-[15px]'>Securely link your everyday <br></br>transaction account and spend <br></br>normally!</h3>
@@ -72,7 +72,7 @@ function RoundUpComponents() {
                         </div>
                         <div className="w-full lg:w-1/2 pr-8">
                             <div>
-                                <div className='items-center justify-center flex flex-col text-center h-60'><Image src={R_03} alt="Picture of the author" /></div>
+                                <div data-aos="fade-up" data-aos-duration="2000" className='items-center justify-center flex flex-col text-center h-60'><Image src={R_03} alt="Picture of the author" /></div>
 
                             </div>
 
@@ -82,13 +82,13 @@ function RoundUpComponents() {
                     <div className="flex w-full pb-0 lg:pb-36 flex-wrap">
                         <div className="w-full lg:w-1/2 pr-8">
                             <div>
-                                <div className='items-center justify-center flex flex-col text-center h-60'><Image src={R_04} alt="Picture of the author" /></div>
+                                <div data-aos="fade-down" data-aos-duration="2000" className='items-center justify-center flex flex-col text-center h-60'><Image src={R_04} alt="Picture of the author" /></div>
 
                             </div>
 
                         </div>
 
-                        <div className="w-full lg:w-1/2 pr-8 flex-wrap">
+                        <div data-aos="fade-down" data-aos-duration="2000" className="w-full lg:w-1/2 pr-8 flex-wrap">
                         <div className='relative'>
                             <h1 className='text-[200px] absolute font-semibold  text-white opacity-25 right-[0px] top-[-138px]'>4</h1>
                                 <h3 className='text-[#230d4d] font-semibold text-[26px] lg:text-[36px] leading-[32px] lg:leading-[50px] text-left lg:text-right mt-[15px]'>Have a say in where your <br></br>funds go!</h3>
