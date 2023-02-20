@@ -19,7 +19,7 @@ function AppFeaturesComponents() {
                         <div data-aos="fade-down" data-aos-duration="2000" className="w-full lg:w-1/3 pr-0 lg:pr-8">
                             <div>
                                 <div className='items-center justify-center flex flex-col text-center'><Image src={App_01} alt="Picture of the author" /></div>
-                                <h3 className='text-[#230d4d] font-bold text-[22px] text-center lg:text-right mt-[15px]'>Find charities that match your values</h3>
+                                <h3 className='text-[#230d4d] font-bold text-[22px] text-center lg:text-right mt-[15px]'>Fiind charities that match your values</h3>
                                 <p className='text-[#161f3d] text-[18px] font-semibold text-center lg:text-right leading-7 mt-[15px]'>Capture your interests and values during onboarding, tailoring the charities
                                     visible on the platform to those which fit their beliefs.</p>
                             </div>
