@@ -11,11 +11,13 @@ import RoundUpComponents from '../components/RoundUpComponents'
 import WeComponents from '../components/WeComponents'
 import BannerComponents from '../components/BannerComponents'
 import FormTestComponents from '../components/FormTestComponents'
+import { useTheme } from 'next-themes'
 
 
 
 
 export default function Home() {
+  const { theme, setTheme } = useTheme()
   return (
     <div>
       <Head>
