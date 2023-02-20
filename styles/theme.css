@@ -2,9 +2,40 @@
     /* Your default theme */
     --background: white;
     --foreground: black;
+    --nav_text: #230d4d;
+    --banner_image_bg : url('../images/Banner_Pattern.svg');
+    --logo_invert:block;
+    --logo_invert_two:none;
+    --head_text_main : #230d4d;
+    --sub_head_text_main : #161f3d;
+    --orange_bg :#fc8965;
+    --under_line_bg : #230d4d;
+    --fotter_bg :#000000;
+  
+   
   }
   
   [data-theme='dark'] {
     --background: black;
     --foreground: white;
-  }
+    --nav_text: white;
+    --banner_image_bg: url('../images/Banner_Pattern_02.svg');
+    --logo_invert:none;
+    --logo_invert_two:block;
+    --head_text_main :white;
+    --sub_head_text_main :white;
+    --orange_bg :#000000;
+    --under_line_bg : #fc8965;
+    --fotter_bg :#24202d;
+    
+   }
+
+.nav_text{color: var(--nav_text); }
+.banner_bg_main{background-image: var(--banner_image_bg); }
+.logo_vist{display: var(--logo_invert); }
+.logo_vist_dark{display: var(--logo_invert_two); }
+.head_text_main{color: var(--head_text_main); }
+.sub_head_text_main{color: var(--sub_head_text_main); }
+.orange_bg{background-color: var(--orange_bg);}
+.under_line_bg{background-color: var(--under_line_bg);}
+.fotter_bg{background-color: var(--fotter_bg);}
